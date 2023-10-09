@@ -1,4 +1,6 @@
 window.addEventListener("load", () => {
+  console.log("test");
+
   const app = document.getElementById("app");
 
   const routes = {
@@ -7,9 +9,11 @@ window.addEventListener("load", () => {
     contact: "<h1>연락처 페이지</h1>",
   };
 
-  function render(route) {
+  const render = (route) => {
+    console.log("route", route);
+
     app.innerHTML = routes[route] || "<h1>404 페이지를 찾을 수 없습니다.</h1>";
-  }
+  };
 
   window.addEventListener("hashchange", () => {
     const route = location.hash.slice(1);
