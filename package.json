@@ -1,0 +1,22 @@
+{
+  "name": "js-spa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/In-Self-Improvement/JS-SPA.git",
+  "author": "Bong <borobong230@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^22.1.0"
+  }
+}
