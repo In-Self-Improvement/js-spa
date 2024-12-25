@@ -3,6 +3,7 @@ export class Store {
   #state;
   #mutations;
   #actions;
+  state = {};
 
   constructor({ state, mutations = {}, actions = {} }) {
     this.#state = observable(state);
